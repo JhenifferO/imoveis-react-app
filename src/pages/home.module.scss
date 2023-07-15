@@ -1,0 +1,22 @@
+@import '../styles/generalStyles.scss';
+
+.home_container {
+    height: 88vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    .btn_home {
+        width: 200px;
+        padding: 10px 20px;
+        border: 1px solid $darkGray;
+        border-radius: 10px;
+        color: $darkGray;
+        background: transparent;
+        font-size: 14px;
+        margin: 0 3px;
+    }
+    .btn_home:hover {
+        background: darkGray;
+        color: $offwhite;
+    }
+}

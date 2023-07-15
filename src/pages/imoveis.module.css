@@ -1,0 +1,27 @@
+.container_imoveis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imoveis {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .imoveis {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .imoveis {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+

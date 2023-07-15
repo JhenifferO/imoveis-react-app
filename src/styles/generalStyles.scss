@@ -1,0 +1,23 @@
+/*breakpoints*/
+$mobile: 425px;
+$tablet: 768px;
+$desktop_xsm: 980px;
+$desktop_sm: 1080px;
+$desktop_md: 1280px;
+
+/*colors*/
+$softOrange: rgba(233, 176, 83, 1);
+$softRed: rgba(241, 94, 80, 1);
+$offwhite: rgba(255, 253, 250, 1);
+$lightGray: rgba(197, 198, 206, 1);
+$darkGray: rgba(93, 95, 121, 1);
+$darkBlue: rgba(0, 0, 26, 1);
+
+
+/*functions*/
+@mixin flexBox($flex_direction, $justify_content, $align_items) {
+    display: flex;
+    flex-direction: $flex_direction;
+    justify-content: $justify_content;
+    align-items: $align_items;
+}

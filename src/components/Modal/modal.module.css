@@ -1,0 +1,51 @@
+.modal_container {
+    position: absolute;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 90%;
+    max-width: 300px;
+}
+
+.modal .pErroTrue {
+    font-size: 14px;
+    padding: 0px 20px;
+    margin: 5px 0;
+    color: rgb(209, 89, 89);
+}
+
+.modal .pErroFalse {
+    font-size: 14px;
+    padding: 0px 20px;
+    margin: 5px 0;
+    color: rgb(131, 209, 89);
+}
+
+.btn_modal {
+    margin: 5px 0;
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid rgb(131, 209, 89);
+    border-radius: 15px;
+    padding: 6px 18px;
+    color: rgb(131, 209, 89);
+}
+
+.btn_modal:hover {
+    color: #fff;
+    background-color: rgb(131, 209, 89);
+}
